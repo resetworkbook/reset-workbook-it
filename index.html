@@ -7,19 +7,7 @@
 <style>
 :root{--cream:#f5f0e8;--paper:#fbf9f5;--taupe:#d9cbbd;--brown:#684d3d;--dark:#28231f;--line:#d8cbbf;--white:#fffdf9}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--dark);font-family:Arial,Helvetica,sans-serif;line-height:1.55}h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;line-height:1.08;margin:0}a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:20;background:rgba(251,249,245,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:16px 6vw}.logo{letter-spacing:.3em;font-size:18px}.logo small{display:block;font-size:8px;letter-spacing:.35em;text-align:center;margin-top:2px}.navlinks{display:flex;gap:28px;font-size:13px}.btn{display:inline-block;background:var(--brown);color:white;padding:14px 26px;border-radius:999px;font-size:12px;letter-spacing:.12em;font-weight:bold}.hero{min-height:650px;background:linear-gradient(110deg,#e9e0d5,#f7f3ec 55%,#eee5dc);display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:70px 8vw;gap:70px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:11px;color:#7a6557;margin-bottom:16px}.hero h1{font-size:clamp(48px,6vw,82px);max-width:700px}.subtitle{font-family:Georgia,serif;color:var(--brown);font-size:28px;margin:16px 0 20px}.lead{max-width:620px;color:#5d544d;font-size:17px}.price{font:42px Georgia,serif;margin:26px 0 12px}.price .old{font:18px Arial,sans-serif;text-decoration:line-through;color:#8a7b70;margin-left:10px;vertical-align:middle}.promo{display:inline-block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#684d3d;border:1px solid #cdbdaf;padding:7px 10px;margin-top:4px}.secure{font-size:12px;color:#75685f;margin-top:12px}.device-wrap{display:flex;justify-content:center}.tablet{width:min(360px,80%);background:#161412;border-radius:28px;padding:10px;box-shadow:0 30px 60px rgba(65,45,30,.25);transform:rotate(-2deg)}.screen{background:#f4eee6;min-height:480px;border-radius:20px;padding:55px 35px;display:flex;flex-direction:column;justify-content:center;text-align:center;position:relative;overflow:hidden}.screen:before{content:'';position:absolute;width:280px;height:180px;border-radius:50%;background:#d9c5b4;opacity:.35;right:-90px;bottom:-40px;transform:rotate(-12deg)}.screen:after{content:'';position:absolute;width:230px;height:120px;border-radius:50%;background:#eadfd3;opacity:.8;left:-100px;bottom:20px;transform:rotate(15deg)}.cover-title{position:relative;z-index:1;font:42px Georgia,serif;letter-spacing:.18em}.cover-small{position:relative;z-index:1;letter-spacing:.35em;font-size:9px;margin-top:6px}.cover-rule{width:45px;border-top:1px solid var(--brown);margin:38px auto}.cover-copy{position:relative;z-index:1;font:18px Georgia,serif;color:#59463a}.strip{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line);background:#f8f4ee}.strip div{text-align:center;padding:28px 15px;border-right:1px solid var(--line);font-size:13px}.strip div:last-child{border:0}.section{padding:90px 8vw}.section.alt{background:var(--cream)}.section-head{max-width:760px;margin-bottom:42px}.section h2{font-size:clamp(38px,5vw,62px)}.section-head p{color:#655b53;font-size:17px}.chapters{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line)}.chapter{padding:25px 20px 25px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:50px 1fr;gap:15px}.num{width:34px;height:34px;border-radius:50%;background:var(--brown);color:white;display:grid;place-items:center;font-size:12px}.chapter h3{font-size:24px;margin-bottom:6px}.chapter p{margin:0;color:#6a5e55;font-size:14px}.method{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:45px}.method article{text-align:center;padding:30px 22px;border-right:1px solid var(--line)}.method article:last-child{border:0}.method b{font-family:Georgia,serif;font-size:22px}.method p{font-size:14px;color:#6b615a}.challenge{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.challenge-card{background:#e7ddd2;padding:55px;border-radius:4px}.days{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:24px}.days span{background:#f9f6f1;border:1px solid var(--line);padding:13px 5px;text-align:center;font-size:11px}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:60px}.list{list-style:none;padding:0;margin:20px 0}.list li{padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}.list li:before{content:'✓';color:var(--brown);font-weight:bold;margin-right:10px}.final{background:var(--brown);color:white;text-align:center;padding:90px 8vw}.final h2{font-size:52px}.final p{max-width:650px;margin:20px auto 30px;color:#eee6de}.final .btn{background:white;color:var(--brown)}footer{padding:28px 8vw;background:#453328;color:#eee;font-size:12px;display:flex;justify-content:space-between}.muted{color:#766a61}@media(max-width:800px){.navlinks{display:none}.hero,.challenge,.twocol{grid-template-columns:1fr}.hero{padding:55px 6vw}.strip{grid-template-columns:1fr 1fr}.method{grid-template-columns:1fr 1fr}.chapters{grid-template-columns:1fr}.section{padding:65px 6vw}.final h2{font-size:40px}.days{grid-template-columns:repeat(2,1fr)}footer{display:block}.device-wrap{order:-1}}
-</style>
-<!-- MailerLite Universal -->
-<script>
-(function(w,d,e,u,f,l,n){
-  w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},
-  l=d.createElement(e),l.async=1,l.src=u,
-  n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);
-})
-(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-ml('account', '2669006');
-</script>
-<!-- End MailerLite Universal -->
-
+html{scroll-behavior:smooth} .section{scroll-margin-top:80px} #lista-email{scroll-margin-top:80px}</style>
 </head>
 <body>
 <header class="nav"><a class="logo" href="#top">RESET<small>WORKBOOK</small></a><nav class="navlinks"><a href="#percorso">Il percorso</a><a href="#metodo">Il metodo</a><a href="#challenge">30 giorni</a><a href="#faq">FAQ</a><a href="#lista-email">Contatti</a></nav><a class="btn" href="#acquista">ACQUISTA ORA →</a></header>
@@ -52,12 +40,41 @@ ml('account', '2669006');
 
 <section class="section alt" id="lista-email">
   <div class="section-head">
-    <div class="eyebrow">Contatti</div>
-    <h2>Vuoi ricevere aggiornamenti su RESET?</h2>
-    <p>Lascia la tua email per ricevere comunicazioni relative a RESET.</p>
+    <div class="eyebrow">Mini guida gratuita</div>
+    <h2>Vuoi ricevere il tuo regalo RESET?</h2>
+    <p>Iscriviti e ricevi in regalo la <strong>Mini Guida RESET</strong>: un breve esercizio pratico per fare spazio nella mente, ridurre il sovraccarico e capire da dove ripartire.</p>
   </div>
   <div style="max-width:620px;margin:0 auto;background:#fffdf9;border:1px solid var(--line);padding:34px;">
-    <div class="ml-embedded" data-form="wphhVl"></div>
+    
+  <div style="max-width:620px;margin:0 auto;background:#fffdf9;border:1px solid var(--line);padding:34px;">
+    <form id="reset-ml-form" action="https://assets.mailerlite.com/jsonp/2669006/forms/200055650109097048/subscribe" method="post" target="_blank">
+      <label for="email" style="display:block;font-size:13px;margin-bottom:8px;letter-spacing:.02em;">La tua email</label>
+      <input id="email" name="fields[email]" type="email" placeholder="nome@email.it" required
+        style="width:100%;padding:15px;border:1px solid #d8cbbf;background:#fbf9f5;font-size:15px;outline:none;">
+      <input type="hidden" name="ml-submit" value="1">
+      <input type="hidden" name="anticsrf" value="true">
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:11px;color:#6a5e55;margin:15px 0;line-height:1.4;">
+        <input type="checkbox" required style="margin-top:3px;accent-color:#684d3d;">
+        <span>Acconsento a ricevere comunicazioni relative a RESET e la Mini Guida gratuita.</span>
+      </label>
+      <button class="btn" type="submit" style="border:0;cursor:pointer;margin-top:6px;">ISCRIVITI →</button>
+      <p style="font-size:10px;color:#82766d;margin-top:14px;">Riceverai la Mini Guida e, successivamente, aggiornamenti e contenuti relativi a RESET.</p>
+    </form>
+    <div id="ml-success" style="display:none;text-align:center;padding:20px 0;">
+      <h3 style="font-family:Georgia,serif;font-size:28px;margin-bottom:10px;">Grazie! 🎁</h3>
+      <p style="color:#655b53;">Controlla la tua email, ti ho appena inviato la Mini Guida RESET.<br><span style="font-size:12px;">Se non la vedi, guarda nello spam.</span></p>
+    </div>
+  </div>
+  <script>
+    document.getElementById('reset-ml-form').addEventListener('submit', function(e){
+      // lascia che MailerLite faccia il submit in background (target blank)
+      setTimeout(function(){
+        document.getElementById('reset-ml-form').style.display='none';
+        document.getElementById('ml-success').style.display='block';
+      }, 600);
+    });
+  </script>
+
   </div>
 </section>
 
